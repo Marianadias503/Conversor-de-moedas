@@ -110,7 +110,7 @@ form button:hover{
 
 main h2{
     font-size: 3.5rem;
-    color: #2f9766;
+    color: black;
 
 }
 
@@ -133,3 +133,51 @@ footer span{
     font-size: 0.8rem;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 768px) {
+    header h1{
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        cursor: pointer;
+    }
+  header{
+    border: 1px solid black;
+  }
+    .input-container{
+
+        width: 100%;
+        display: block;
+        justify-content: space-around;
+        margin-bottom: 8%;
+   
+        
+        }
+        
+        .form-group{
+          
+            margin-bottom: 10px;
+            
+        }
+        main h2{
+            font-size: 2rem;
+            color: black;
+        
+        }
+        footer span{
+            color: black;
+            font-weight: 700;
+        }
+        .form-group label{
+            color: #333;
+            font-size: 1em;
+            font-weight: 600;
+            margin-bottom: 6px;
+           
+     
+          
+        
+        }
+        
+    
+    }
